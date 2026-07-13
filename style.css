@@ -14,3 +14,14 @@ header{
     text-align: center;
     padding: 30px;
 }
+header h1{
+    font-size: 35px;
+}
+main{
+    width: 95%;
+    margin: 10px auto;
+}
+footer {
+    width: 95%;
+    margin: 10px auto;
+}
