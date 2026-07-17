@@ -171,22 +171,6 @@
         na estrutura social do Brasil contemporâneo.
     </p>
 </section>
-     
-        <section>
-
-            <article>
-
-            </article>
-
-        </section>
-
-        <section>
-
-            <article>
-
-            </article>
-
-        </section>
 
         <section>
 
@@ -241,19 +225,51 @@
 
         </section>
 
-        <section>
 <h3>Deixe sua opinião</h3>
 
-<form>
-    <label for="nome">Nome:</label><br>
-    <input type="text" id="nome" name="nome"><br><br>
+<section class="feedback">
 
-    <label for="comentario">Comentário:</label><br>
-    <textarea id="comentario" name="comentario"></textarea><br><br>
+    <div class="feedback-info">
+        <div class="icone">💬</div>
 
-    <input type="submit" value="Enviar">
-</form>
+        <h3>Deixe sua opinião</h3>
 
+        <p>
+            Sua opinião é muito importante! Comentários, sugestões e críticas
+            nos ajudam a melhorar nosso projeto.
+        </p>
+
+    </div>
+
+    <div class="feedback-form">
+        <form>
+
+            <div class="campo">
+                <label for="nome">Nome</label>
+                <input
+                    type="text"
+                    id="nome"
+                    name="nome"
+                    placeholder="Digite seu nome"
+                    required>
+            </div>
+
+            <div class="campo">
+                <label for="comentario">Comentário</label>
+
+                <textarea
+                    id="comentario"
+                    name="comentario"
+                    rows="6"
+                    placeholder="Escreva sua opinião..."></textarea>
+            </div>
+
+            <button type="submit">
+                Enviar
+            </button>
+
+        </form>
+    </div>
         </section>
 
     </main>

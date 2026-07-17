@@ -48,3 +48,137 @@ h2{
      font-size: 30px;
      color:#5b1d1d
 }
+/* ===========================
+   FORMULÁRIO
+=========================== */
+
+.feedback{
+    max-width:1200px;
+    margin:60px auto;
+    padding:40px;
+
+    display:flex;
+    gap:50px;
+    flex-wrap:wrap;
+
+    background:#fff;
+    border-radius:20px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.12);
+}
+
+.feedback-info{
+    flex:1;
+    min-width:280px;
+}
+
+.icone{
+    width:90px;
+    height:90px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:42px;
+
+    background:#eef4ff;
+
+    border-radius:50%;
+    margin-bottom:20px;
+}
+
+.feedback-info h3{
+    font-size:32px;
+    color:#5b1d1d;
+    margin-bottom:15px;
+}
+
+.feedback-info p{
+    color:#555;
+    line-height:1.7;
+    margin-bottom:25px;
+}
+
+.aviso{
+    background:#eef4ff;
+    padding:15px;
+    border-radius:10px;
+    color:#5b1d1d;
+    font-weight:bold;
+}
+
+.feedback-form{
+    flex:2;
+}
+
+.campo{
+    margin-bottom:25px;
+}
+
+.campo label{
+    display:block;
+    font-weight:bold;
+    margin-bottom:8px;
+    color:#222;
+}
+
+.campo input,
+.campo textarea{
+
+    width:100%;
+    padding:16px;
+
+    border:2px solid #ddd;
+    border-radius:12px;
+
+    font-size:17px;
+
+    transition:.3s;
+}
+
+.campo input:focus,
+.campo textarea:focus{
+
+    border-color:#5b1d1d;
+    outline:none;
+
+    box-shadow:0 0 10px rgba(11,61,145,.15);
+
+}
+
+button{
+
+    background:#5b1d1d;
+    color:white;
+
+    border:none;
+
+    padding:16px 40px;
+
+    border-radius:12px;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+button:hover{
+
+    background:#6b0806;
+
+    transform:translateY(-3px);
+
+}
+
+@media(max-width:900px){
+
+.feedback{
+
+    flex-direction:column;
+
+}
+
+}
