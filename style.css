@@ -18,6 +18,23 @@ header{
     padding: 40px 20px;
 }
 
+.topo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.logo{
+    width: 180px;
+    height: auto;
+}
+
+.topo h1{
+    margin: 0;
+}
+
 header h1{
     font-size: 36px;
     max-width: 900px;
